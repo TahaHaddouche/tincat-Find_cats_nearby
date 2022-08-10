@@ -1,0 +1,403 @@
+body
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-top: 10%;
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+h3
+{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+p
+{
+  color: #808080;
+}
+/************BOX************BOX****************BOX***************/
+/*******Every ID represent a section in html & the website*******/
+#title
+{
+  background: linear-gradient(140deg, #ff4c68 60%, #ef8575);
+  color: white;
+}
+.countainer-fluid
+{
+  padding: 70px 10%;
+}
+.NAV
+{
+  background-color: #ff4c68;
+  font-size: 20px;
+  padding: 0;
+}
+.BRAND
+{
+  font-size: 29px;
+}
+.BRAND:hover
+{
+  color: #333;
+}
+.loginbtn
+{
+  color: #fffc;
+  border-style: none none none solid;
+  border-color: #0007;
+}
+.loginbtn:hover
+{
+  color: #000b;
+}
+.logo
+{
+  width: 40px;
+  margin-left: 15px;
+}
+.catplay
+{
+  width: 297.3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.catphone
+{
+  width: 280px;
+  background-color: black;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-radius: 8.5%;
+  border-width: 9px 10px 14px 10px;
+  transform: rotate(10deg);
+  position: relative;
+  top: 70px;
+  left: 10%;
+}
+#Menu
+{
+  line-height: 1;
+  padding: 1% 1% 1% 2%;
+}
+.Download
+{
+  padding: 50px 0 200px;
+  position: relative;
+  z-index: 0;
+}
+.BTNS
+{
+  position: relative;
+}
+#features
+{
+  color: #7a7a7a;
+  background-color: white;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3% 0;
+  position: relative;
+}
+.bnfts
+{
+  padding: 10% 4%;
+}
+.features-pic
+{
+  color: #ef8172;
+  font-size: 100px;
+  margin: 5%;
+}
+.features-pic:hover
+{
+  color: #ff4c68;
+}
+#reviews
+{
+  padding: 30px 0 40px;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+}
+.comment-section
+{
+  position: relative;
+  z-index: 1;
+}
+.comment
+{
+  padding: 5% 20% 1%;
+}
+.review-pic
+{
+  border-radius: 100%;
+  width: 60px;
+  margin: 2%;
+}
+.chatpaw
+{
+  width: 70%;
+  transform: rotate(40deg);
+  opacity: 0.7;
+  position: absolute;
+  top: -160px;
+  left: 15%;
+  z-index: 0;
+}
+#sponsor
+{
+  background-color: #ef8172;
+  padding: 50px 5%;
+  text-align: center;
+}
+.sponsor-pic
+{
+  width: 15%;
+  margin: 0 3%;
+}
+#pricing
+{
+  padding: 70px 4% 50px;
+  text-align: center;
+}
+.prices
+{
+  width: 100%;
+  margin: 4% 0 25px;
+}
+.card
+{
+  height: 365px;
+  margin: 5% 0;
+  position: relative;
+  padding: 3%;
+  border-color: #ffb5a6;
+}
+.card-header
+{
+  border-color: #ffb5a6;
+}
+.mounth
+{
+  color: #909090;
+}
+.btn-signup
+{
+  position: absolute;
+  bottom: 20px;
+  right: 10%;
+  left: 10%;
+}
+.btn-danger:hover
+{
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+.logintxt
+{
+  color: #ef8172;
+  text-decoration: none;
+}
+.logintxt:hover
+{
+  color: #ff4c68;
+}
+#remainder
+{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 6% 15%;
+  position: relative;
+}
+.Dwnld
+{
+  position: relative;
+  z-index: 2;
+}
+.remaindertxt
+{
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 5%;
+}
+.lovecat
+{
+  width: 250px;
+  position: absolute;
+  right: 6.5%;
+  bottom: 0;
+  z-index: 1;
+}
+.paw
+{
+  width: 310px;
+  transform: rotate(35deg);
+  opacity: 0.7;
+  padding-top: 1%;
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  z-index: 0;
+}
+#footer
+{
+  text-align: center;
+  padding: 65px 20%;
+  position: relative;
+}
+.liftcat
+{
+  width: 240px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.cntct
+{
+  padding: 10px;
+  margin: 5px;
+  font-size: 30px;
+  color: #212529;
+}
+.cntct:hover
+{
+  border-radius: 100%;
+  background-color: #0002;
+}
+.cntct:active
+{
+  color: #fff;
+  background-color: #ef8172;
+}
+/************Bootstrap************Bootstrap****************Bootstrap***************/
+.navbar-toggler
+{
+  margin: 8px 7px;
+  border-width: 3px;
+  border-color: #fff3;
+  border-radius: 12%;
+}
+.btn-outline-light
+{
+  position: absolute;
+  left: 168px;
+  border-width: 4px;
+  margin: 10px 0 0 10px;
+}
+.btn-dark
+{
+  border-width: 4px;
+  margin: 10px 0 0 4px;
+}
+.btn-light
+{
+  border-width: 4px;
+  margin: 10px 0 0 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+  width: 3rem;
+  height: 3rem;
+}
+/************Responsive************Responsive****************Responsive***************/
+@media (max-width: 991px)
+{
+  .catphone
+  {
+    transform: rotate(0deg);
+    top: 40px;
+    left: 5%;
+  }
+  #Menu
+  {
+    background-image: linear-gradient(to bottom,#ff4c68,#ef8172);
+    padding: 0 1% 1% 2%;
+  }
+  .navbar-toggler:hover
+  {
+    border-color: #fff7;
+  }
+  .navbar-toggler:focus
+  {
+    box-shadow: 0 0 0 0;
+  }
+  .navbar-toggler:active
+  {
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  }
+  .chatpaw
+  {
+    top: -10%;
+  }
+  .card
+  {
+    height: 380px;
+  }
+  .lovecat
+  {
+    width: 280px;
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 0;
+  }
+  .paw
+  {
+    transform: rotate(18deg);
+    width: 63%;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    top: 0;
+  }
+}
+@media (max-width: 767px)
+{
+  .catphone
+  {
+    top: 0;
+    left: 30px;
+  }
+  .cmntxt
+  {
+    font-size: 1.75rem;
+  }
+  .chatpaw
+  {
+    top: -40px;
+  }
+  #remainder
+  {
+    padding: 60px 12% 40px;
+  }
+  .paw
+  {
+    transform: rotate(10deg);
+    width: 67%;
+  }
+  .liftcat
+  {
+    width: 155px;
+    left: 0;
+  }
+}
