@@ -401,3 +401,54 @@ p
     left: 0;
   }
 }
+@media (max-width: 440px)
+{
+  h1
+  {
+    font-size: 36px;
+    white-space: pre;
+  }
+  h2
+  {
+    font-size: 38px;
+  }
+  .countainer-fluid
+  {
+    padding: 50px 4%;
+  }
+  .comment
+  {
+    padding: 5% 12% 1%;
+  }
+  .chatpaw
+  {
+    top: 70px;
+  }
+  #sponsor
+  {
+    padding: 50px 5% 20px;
+  }
+  #remainder
+  {
+    padding: 60px 2% 40px;
+  }
+  .remaindertxt
+  {
+    font-size: 42px;
+  }
+  #footer
+  {
+  padding: 65px 2%;
+  }
+  .btn-dark,
+  .btn-light,
+  .btn-outline-light
+  {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .btn-outline-light
+  {
+    left: 150px;
+  }
+}
